@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background:linear-gradient(grey,pink);
 font-family: 'Roboto', sans-serif;
 }
 header{
@@ -19,19 +19,19 @@ header{
 .mainbox{
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: relative;
 }
 
 .leftbox{ 
     width: 50%;
     height: 100vh; 
-    margin:auto ;
-    position: flex;
+    margin-right:auto;
+    position: absolute;
 }
 .rightbox{
     width: 50%;
     height: 100vh;
-    margin:auto;
+    margin-left:auto;
 }
 .img{
     padding-top: 30px;
