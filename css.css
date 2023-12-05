@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(grey, pink);
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgb(82, 24, 24);
+    width: 100%;
+    height: 50px;
+}
+   
+
+.texthead{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 13px;
+ 
+}
+
+.mainbox{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.leftbox{ 
+    width: 50%;
+    height: 100vh; 
+    margin-right: auto;
+    position: absolute;
+}
+.rightbox{
+    width: 50%;
+    height: 100vh;
+    margin-left:auto;
+}
+.img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+  
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    overflow:none
+    ;
+}
+#menu li {
+    display:block;
+    text-align: center;
+    border-bottom: 1px solid #EBEBE3;
+    margin-right: 0;
+}
