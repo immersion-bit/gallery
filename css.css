@@ -26,12 +26,12 @@ header{
     width: 50%;
     height: 100vh; 
     margin-right: auto;
-    position: absolute;
+    position: flex;
 }
 .rightbox{
     width: 50%;
     height: 100vh;
-    margin-left:auto;
+    margin-left:flex;
 }
 .img{
     padding-top: 30px;
