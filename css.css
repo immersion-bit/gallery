@@ -19,19 +19,19 @@ header{
 .mainbox{
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: absolute;
 }
 
 .leftbox{ 
     width: 50%;
     height: 100vh; 
-    margin-right: auto;
+    margin:auto ;
     position: flex;
 }
 .rightbox{
     width: 50%;
     height: 100vh;
-    margin-left:flex;
+    margin:auto;
 }
 .img{
     padding-top: 30px;
@@ -55,6 +55,6 @@ header{
 #menu li {
     display:block;
     text-align: center;
-    border-bottom: 1px solid #EBEBE3;
+   
     margin-right: 0;
 }
